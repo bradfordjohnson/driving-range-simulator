@@ -17,75 +17,76 @@ const golfClubs = {
 };
 
 const targets = {
-  "Red 1": {
-    "distance": 50,
-    "diameter": 15,
-    "radius": 7.5,
+  "red1": {
+    "x": 1,
+    "y": 1,
+    "size": 0.5,
     "color": "red",
     "shape": "circle"
   },
-  "Red 2": {
-    "distance": 60,
-    "diameter": 15,
-    "radius": 7.5,
+  "red2": {
+    "x": 3,
+    "y": 1,
+    "size": 0.5,
     "color": "red",
     "shape": "circle"
   },
-  "Red 3": {
-    "distance": 70,
-    "diameter": 15,
-    "radius": 7.5,
+  "red3": {
+    "x": 5,
+    "y": 1,
+    "size": 0.5,
     "color": "red",
     "shape": "circle"
   },
-  "Yellow 1": {
-    "distance": 90,
-    "diameter": 20,
-    "radius": 10,
+  "yellow1": {
+    "x": 2,
+    "y": 3,
+    "size": 0.75,
     "color": "yellow",
     "shape": "circle"
   },
-  "Yellow 2": {
-    "distance": 100,
-    "diameter": 20,
-    "radius": 10,
+  "yellow2": {
+    "x": 4,
+    "y": 3,
+    "size": 0.75,
     "color": "yellow",
     "shape": "circle"
   },
-  "Green": {
-    "distance": 120,
-    "diameter": 25,
-    "radius": 12.5,
+  "green": {
+    "x": 3,
+    "y": 5.25,
+    "size": 1,
     "color": "green",
     "shape": "circle"
   },
-  "Orange": {
-    "distance": 150,
-    "diameter": 30,
-    "radius": 15,
-    "color": "orange",
+  "brown": {
+    "x": 4,
+    "y": 7.5,
+    "size": 1,
+    "color": "brown",
     "shape": "circle"
   },
-  "Blue": {
-    "distance": 180,
-    "diameter": 35,
-    "radius": 17.5,
+  "blue": {
+    "x": 2,
+    "y": 9.25,
+    "size": 1,
     "color": "blue",
     "shape": "circle"
   },
-  "White": {
-    "distance": 200,
-    "diameter": 40,
-    "radius": 20,
+  "white": {
+    "x": 4,
+    "y": 11.5,
+    "size": 1,
     "color": "white",
     "shape": "circle"
   },
-  "Trench": {
-    "distance": 250,
-    "width": 50,
-    "height": 10,
+  "trench": {
+    "xmin": 1.2,
+    "xmax": 4.8,
+    "ymin": 13.5,
+    "ymax": 14,
     "color": "gray",
-    "shape": "rectangle"
+    "shape": "square"
   }
 };
 
